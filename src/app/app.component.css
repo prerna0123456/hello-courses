@@ -1,0 +1,16 @@
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+    position: fixed;
+    top: 200px;
+    left:900px;
+    bottom: 100px;
+    right: 200px;
+    width: 25%;
+    height: 75%;
+}
